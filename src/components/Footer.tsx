@@ -13,12 +13,12 @@ const Footer: React.FC = () => {
 
                     {/* Brand Section */}
                     <div className="space-y-6">
-                        <div className="brightness-0 invert">
-                            <Image src="/logo.png" alt="Collabify Logo" width={100} height={100} />
+                        <div className="">
+                            <Image src="/logowhite.png" alt="Collabify Logo" width={150} height={150} />
                         </div>
                         <p className="text-slate-400 leading-relaxed font-medium">
-                            Collabify Growth Labs is a growth ecosystem helping startups, creators, and brands scale through strategy, collaboration, and community.
-                        </p>
+Collabify is where ideas turn into momentum.
+We bring strategy, people, and opportunities together to help brands grow with purpose — not noise.                        </p>
                         <div className="flex gap-4">
                             <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-all">
                                 <Instagram size={20} />
@@ -26,9 +26,7 @@ const Footer: React.FC = () => {
                             <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-all">
                                 <Linkedin size={20} />
                             </a>
-                            <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-all">
-                                <Twitter size={20} />
-                            </a>
+                      
                         </div>
                     </div>
 
@@ -56,9 +54,9 @@ const Footer: React.FC = () => {
                     <div>
                         <h4 className="text-lg font-bold mb-6">Contact</h4>
                         <ul className="space-y-4 text-slate-400 font-medium">
-                            <li>New Delhi, India</li>
-                            <li>hello@collabify.in</li>
-                            <li>+91 98765 43210</li>
+                            <li>Noida, Uttar Pradesh, India</li>
+                            <li>info@collabify.sbs</li>
+                            <li>+91 84276 00516</li>
                         </ul>
                     </div>
                 </div>
@@ -70,10 +68,7 @@ const Footer: React.FC = () => {
                     <p className="text-slate-500 text-sm font-medium flex items-center gap-1">
                         Made with <Heart size={14} className="text-secondary fill-current" /> by Collabify
                     </p>
-                    <div className="flex gap-6">
-                        <a href="#" className="text-sm font-medium text-slate-500 hover:text-white transition-colors">Privacy Policy</a>
-                        <a href="#" className="text-sm font-medium text-slate-500 hover:text-white transition-colors">Terms</a>
-                    </div>
+                   
                 </div>
             </div>
         </footer>

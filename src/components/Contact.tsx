@@ -27,13 +27,13 @@ const Contact: React.FC = () => {
                         <h3 className="text-xl font-bold text-slate-900 mb-2">Email Us</h3>
                         <p className="text-slate-500 font-medium mb-4">For general inquiries</p>
                         <div className="flex items-center justify-center gap-2 text-primary font-bold">
-                            hello@collabify.in
+                            info@collabify.sbs
                             <ArrowUpRight size={18} />
                         </div>
                     </a>
 
                     {/* WhatsApp Card */}
-                    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="group bg-slate-50 rounded-[2rem] p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-slate-100">
+                    <a href="https://wa.me/918427600516" target="_blank" rel="noopener noreferrer" className="group bg-slate-50 rounded-[2rem] p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-slate-100">
                         <div className="w-16 h-16 mx-auto bg-white rounded-2xl flex items-center justify-center text-[#25D366] shadow-sm mb-6 group-hover:scale-110 transition-transform">
                             <MessageCircle size={32} />
                         </div>
@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
                         <h3 className="text-xl font-bold text-slate-900 mb-2">Visit Us</h3>
                         <p className="text-slate-500 font-medium mb-4">Headquarters</p>
                         <div className="text-slate-700 font-bold">
-                            New Delhi, India
+                            Noida, Uttar Pradesh, India
                         </div>
                     </div>
 
@@ -64,9 +64,7 @@ const Contact: React.FC = () => {
             <div className="mt-16 text-center animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
                 <p className="text-slate-500 font-medium mb-8">Ready to transform your vision?</p>
                 <div className="flex flex-wrap justify-center gap-4">
-                    <button className="bg-primary hover:bg-primary/90 text-white font-bold py-4 px-10 rounded-full transition-all shadow-xl shadow-primary/20 hover:-translate-y-1">
-                        Get Started
-                    </button>
+          
                     <a href="/brandpe" className="bg-white hover:bg-slate-50 text-slate-700 font-bold py-4 px-8 rounded-full border border-slate-200 transition-all hover:-translate-y-1 hover:border-primary/20 hover:text-primary">
                         Explore BrandPe
                     </a>

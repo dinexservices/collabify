@@ -1,13 +1,13 @@
 
 import React from 'react';
-
+import Image from 'next/image';
 const Partners: React.FC = () => {
     const partners = [
-        { name: 'Logoipsum 1', url: 'https://logoipsum.com/assets/logo/logo-1.svg' },
-        { name: 'Logoipsum 2', url: 'https://logoipsum.com/assets/logo/logo-2.svg' },
-        { name: 'Logoipsum 3', url: 'https://logoipsum.com/assets/logo/logo-3.svg' },
-        { name: 'Logoipsum 4', url: 'https://logoipsum.com/assets/logo/logo-4.svg' },
-        { name: 'Logoipsum 5', url: 'https://logoipsum.com/assets/logo/logo-5.svg' },
+        { name: 'Logoipsum 1', url: '/partners/idfc.jpg' },
+        { name: 'Logoipsum 2', url: '/partners/7ixm.png' },
+        { name: 'Logoipsum 3', url: '/partners/gostop.png' },
+        { name: 'Logoipsum 4', url: '/partners/whinta.png' },
+     
     ];
 
     return (
@@ -18,13 +18,15 @@ const Partners: React.FC = () => {
                         Our Partners in Success, The Brands Behind <span className="text-secondary">the Stars</span>
                     </h3>
                 </div>
-                <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-70 grayscale hover:opacity-100 transition-all">
+                <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 hover:opacity-100 transition-all">
                     {partners.map((p, i) => (
-                        <img
+                        <Image
                             key={i}
-                            src={`https://logoipsum.com/assets/logo/logo-${i + 10}.svg`}
+                            src={p.url}
                             alt={p.name}
-                            className="h-8 md:h-10 object-contain hover:grayscale-0 transition-all"
+                            width={150}
+                            height={150}
+                            className="h-8 md:h-10 object-contain  transition-all"
                         />
                     ))}
                 </div>

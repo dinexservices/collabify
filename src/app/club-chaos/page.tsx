@@ -1,6 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import { Music, Mic, Star, Users, Calendar, Zap, ArrowRight, Heart, Sparkles } from 'lucide-react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Club Chaos | Artist & Creator Event Management",
+    description: "Club Chaos by Collabify empowers artists and creators through curated events, management, and growth strategies. Connecting talent with real-world opportunities.",
+};
 
 export default function ClubChaos() {
     return (

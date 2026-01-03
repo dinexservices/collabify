@@ -22,12 +22,13 @@ const Hero: React.FC = () => {
 
                     <div className="flex flex-col gap-8 lg:pt-6 animate-in fade-in slide-in-from-right-8 duration-1000 delay-200">
                         <p className="text-lg md:text-xl text-slate-500 leading-relaxed font-medium">
-                            Collabify Growth Labs is a growth ecosystem helping startups, creators, and brands scale through strategy, collaboration, community, and execution.
-                        </p>
+Collabify Growth Labs helps startups, creators, and brands move from visibility to real growth — using strategy, collaborations, and community-driven execution.                        </p>
                         <div className="flex flex-wrap items-center gap-6">
+                            <a href="#contact">
                             <button className="bg-primary hover:bg-primary/90 text-white font-bold py-4 px-10 rounded-full transition-all transform hover:-translate-y-1 shadow-xl shadow-primary/20">
-                                Explore Our Ecosystem
+                                Let's collab
                             </button>
+                            </a>
                             <a href="#ecosystem" className="flex items-center gap-2 font-bold text-primary hover:text-primary/80 transition-colors group">
                                 Work With Us
                                 <ArrowUpRight size={20} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

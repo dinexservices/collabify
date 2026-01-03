@@ -1,7 +1,12 @@
-"use client";
 import React from 'react';
 import { Rocket, Target, BarChart, Share2, Users, Mic, CheckCircle, ArrowRight } from 'lucide-react';
-import Image from 'next/image'; 
+import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "BrandPe | Startup Growth & Marketing",
+    description: "BrandPe by Collabify provides structured, affordable, and execution-focused growth solutions for startups. Branding, Marketing, and Strategy under one roof.",
+};
 
 export default function BrandPe() {
     return (
@@ -13,7 +18,7 @@ export default function BrandPe() {
 
                 <div className="max-w-7xl mx-auto px-4 md:px-8 text-center relative z-10">
                     <div className=" flex items-center justify-center mb-8 mx-auto animate-in fade-in zoom-in duration-500">
-               <Image src="/brand.png" alt="Collabify Logo" width={300} height={300} />
+                        <Image src="/brand.png" alt="Collabify Logo" width={300} height={300} />
                     </div>
 
                     <span className="text-primary font-bold tracking-tight text-lg block mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
