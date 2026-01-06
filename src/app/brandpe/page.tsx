@@ -203,7 +203,7 @@ export default function BrandPe() {
                                 </div>
                             ))}
                         </div>
-                        <button className="w-full py-4 rounded-xl border-2 border-slate-900 text-slate-900 font-bold hover:bg-slate-900 hover:text-white transition-all">Get Started</button>
+                        <a href="https://wa.me/918427600516" target="_blank" rel="noopener noreferrer" className="w-full py-4 rounded-xl border-2 border-slate-900 text-slate-900 font-bold hover:bg-slate-900 hover:text-white transition-all">Get Started</a>
                     </div>
 
                     {/* Tier 2 */}
@@ -229,7 +229,7 @@ export default function BrandPe() {
                                 </div>
                             ))}
                         </div>
-                        <button className="w-full py-4 rounded-xl bg-primary text-white font-bold hover:bg-white hover:text-slate-900 transition-all shadow-lg shadow-primary/20">Choose Scale</button>
+                        <a href="https://wa.me/918427600516" target="_blank" rel="noopener noreferrer" className="w-full py-4 rounded-xl bg-primary text-white font-bold hover:bg-white hover:text-slate-900 transition-all shadow-lg shadow-primary/20">Choose Scale</a>
                     </div>
 
                     {/* Tier 3 */}
@@ -254,7 +254,7 @@ export default function BrandPe() {
                                 </div>
                             ))}
                         </div>
-                        <button className="w-full py-4 rounded-xl border-2 border-slate-900 text-slate-900 font-bold hover:bg-slate-900 hover:text-white transition-all">Go Premium</button>
+                        <a href="https://wa.me/918427600516" target="_blank" rel="noopener noreferrer" className="w-full py-4 rounded-xl border-2 border-slate-900 text-slate-900 font-bold hover:bg-slate-900 hover:text-white transition-all">Go Premium</a>
                     </div>
 
                 </div>
@@ -264,9 +264,9 @@ export default function BrandPe() {
             <section className="py-20 bg-slate-50">
                 <div className="max-w-4xl mx-auto px-4 text-center">
                     <h2 className="text-3xl font-black text-slate-900 mb-8">Ready to Scale Your Startup?</h2>
-                    <button className="bg-primary hover:bg-primary/90 text-white font-bold py-4 px-12 rounded-full shadow-xl shadow-primary/20 transition-all hover:scale-105 flex items-center gap-2 mx-auto">
+                    <a href="https://wa.me/918427600516" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary/90 text-white font-bold py-4 px-12 rounded-full shadow-xl shadow-primary/20 transition-all hover:scale-105 flex items-center gap-2 mx-auto">
                         Apply for BrandPe <ArrowRight size={20} />
-                    </button>
+                    </a>
                 </div>
             </section>
 

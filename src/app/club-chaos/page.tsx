@@ -225,9 +225,9 @@ export default function ClubChaos() {
                     <p className="text-slate-600 text-lg mb-8 max-w-2xl mx-auto">
                         Pricing models vary based on event scale, audience size, type of collaboration, and specific requirements. We ensure fair value for both brands and creators.
                     </p>
-                    <button className="bg-secondary hover:bg-secondary/90 text-white font-bold py-4 px-12 rounded-full shadow-xl shadow-secondary/20 transition-all hover:scale-105 flex items-center gap-2 mx-auto">
+                    <a href="https://wa.me/918427600516" target="_blank" rel="noopener noreferrer" className="bg-secondary hover:bg-secondary/90 text-white font-bold py-4 px-12 rounded-full shadow-xl shadow-secondary/20 transition-all hover:scale-105 flex items-center gap-2 mx-auto">
                         Inquire for Pricing <ArrowRight size={20} />
-                    </button>
+                    </a>
                 </div>
             </section>
 

@@ -65,9 +65,9 @@ We bring strategy, people, and opportunities together to help brands grow with p
                     <p className="text-slate-500 text-sm font-medium">
                         © {new Date().getFullYear()} Collabify Growth Labs. All rights reserved.
                     </p>
-                    <p className="text-slate-500 text-sm font-medium flex items-center gap-1">
-                        Made with <Heart size={14} className="text-secondary fill-current" /> by Collabify
-                    </p>
+                    <a href='https://dinestx.com' target="_blank" rel="noopener noreferrer" className="text-slate-500 text-sm font-medium flex items-center gap-1">
+                        Made with <Heart size={14} className="text-secondary fill-current" /> by Dinex Services
+                    </a>
                    
                 </div>
             </div>
