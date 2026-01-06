@@ -121,7 +121,7 @@ const Navbar: React.FC = () => {
                         </div>
                     ))}
                     <div className="h-px bg-slate-100 my-2" />
-                    <button className="bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-2xl w-full">Let's collab</button>
+                    <a href="https://wa.me/918427600516" target="_blank" rel="noopener noreferrer" className="bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-2xl w-full">Let's collab</a>
                 </div>
             )}
         </nav>
