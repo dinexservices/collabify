@@ -1,64 +1,62 @@
-
 import React from 'react';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowRight, Sparkles } from 'lucide-react';
 
 const Hero: React.FC = () => {
     return (
-        <section className="relative pt-44 pb-20 overflow-hidden bg-white">
-            {/* Background subtle elements */}
-            <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden">
-                <div className="absolute top-20 -left-20 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px]"></div>
-                <div className="absolute bottom-40 -right-20 w-[500px] h-[500px] bg-secondary/10 rounded-full blur-[100px]"></div>
+        <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-white">
+            {/* Background Gradients */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute -top-[20%] -left-[10%] w-[70%] h-[70%] bg-blue-100/50 rounded-full blur-[120px]" />
+                <div className="absolute top-[20%] -right-[10%] w-[60%] h-[60%] bg-purple-100/50 rounded-full blur-[100px]" />
             </div>
 
-            <div className="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
-                {/* Top Text Grid */}
-                <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-12 lg:gap-24 mb-16 items-start">
-                    <div className="animate-in fade-in slide-in-from-left-8 duration-1000">
-                        <h1 className="text-4xl md:text-6xl font-[900] text-slate-900 leading-[1.05] tracking-tight">
-                            Building Brands. Accelerating Growth. <span className="brand-gradient-text">Creating Impact.</span>
-                        </h1>
-                    </div>
+            <div className="max-w-7xl mx-auto px-4 md:px-8 relative z-10 text-center">
 
-                    <div className="flex flex-col gap-8 lg:pt-6 animate-in fade-in slide-in-from-right-8 duration-1000 delay-200">
-                        <p className="text-lg md:text-xl text-slate-500 leading-relaxed font-medium">
-Collabify Growth Labs helps startups, creators, and brands move from visibility to real growth — using strategy, collaborations, and community-driven execution.                        </p>
-                        <div className="flex flex-wrap items-center gap-6">
-                            <a href="#contact">
-                            <button className="bg-primary hover:bg-primary/90 text-white font-bold py-4 px-10 rounded-full transition-all transform hover:-translate-y-1 shadow-xl shadow-primary/20">
-                                Let's collab
-                            </button>
-                            </a>
-                            <a href="#ecosystem" className="flex items-center gap-2 font-bold text-primary hover:text-primary/80 transition-colors group">
-                                Work With Us
-                                <ArrowUpRight size={20} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                            </a>
-                        </div>
-                    </div>
+                {/* Trust Line / Badge */}
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-50 border border-slate-200 mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
+                    <span className="relative flex h-2 w-2">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                    </span>
+                    <span className="text-sm font-medium text-slate-600">
+                        Launching Soon | Limited Early Access Spots
+                    </span>
                 </div>
 
-                {/* Big Rounded Image Container */}
-                <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-primary/10 animate-in fade-in zoom-in-95 duration-1000 delay-500 group">
-                    <img
-                        src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&q=80&w=2070"
-                        alt="Creative Community & Growth"
-                        className="w-full h-[400px] md:h-[600px] object-cover group-hover:scale-105 transition-transform duration-1000"
-                    />
-                    {/* Overlay gradient for text readability if needed */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent opacity-60"></div>
+                {/* Main Headline */}
+                <h1 className="text-5xl md:text-7xl font-[900] text-slate-900 leading-[1.1] tracking-tight mb-8 max-w-5xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700 delay-100">
+                    Collabify — Where Creators & Startups
+                    <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-600">
+                        Grow Together
+                    </span>
+                </h1>
 
-                    {/* Floating dynamic tag */}
-                    <div className="absolute bottom-8 left-8 bg-white/90 backdrop-blur px-6 py-4 rounded-2xl shadow-xl flex items-center gap-4 border border-white/20">
-                        <div className="flex -space-x-3">
-                            {[1, 2, 3].map(i => (
-                                <img key={i} src={`https://i.pravatar.cc/100?img=${i + 10}`} className="w-10 h-10 rounded-full border-2 border-white" alt="Avatar" />
-                            ))}
-                        </div>
-                        <div className="text-sm font-bold text-slate-800">
-                            Join 2,400+ Creators
-                        </div>
-                    </div>
+                {/* Sub-headline */}
+                <p className="text-xl md:text-2xl text-slate-600 font-medium mb-6 max-w-3xl mx-auto leading-relaxed animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
+                    India’s first all-in-one growth ecosystem for Creators, Startups, Brands, Students & Communities.
+                </p>
+
+                {/* Supporting Line */}
+                <p className="text-base text-slate-500 mb-10 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
+                    Find paid collaborations, build meaningful connections, attend exclusive events, and grow faster — all in one platform.
+                </p>
+
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-400">
+                    <a href="#early-access" className="w-full sm:w-auto">
+                        <button className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white text-lg font-bold py-4 px-8 rounded-full transition-all transform hover:-translate-y-1 shadow-lg shadow-primary/25 flex items-center justify-center gap-2">
+                            <Sparkles className="w-5 h-5" />
+                            Join Early Access
+                        </button>
+                    </a>
+                    <a href="#features" className="w-full sm:w-auto">
+                        <button className="w-full sm:w-auto bg-white hover:bg-slate-50 text-slate-700 text-lg font-bold py-4 px-8 rounded-full border border-slate-200 transition-all hover:border-slate-300 flex items-center justify-center gap-2">
+                            Explore Features
+                            <ArrowRight className="w-5 h-5" />
+                        </button>
+                    </a>
                 </div>
+
             </div>
         </section>
     );
